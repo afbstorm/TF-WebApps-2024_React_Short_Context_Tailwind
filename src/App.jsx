@@ -10,8 +10,12 @@ function App() {
 
   return (
       <>
-        <Navbar />
-        { appRoutes }
+        <header>
+          <Navbar />
+        </header>
+          <main>
+            { appRoutes }
+          </main>
       </>
   )
 }

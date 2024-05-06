@@ -1,0 +1,9 @@
+.register__container {
+  @apply bg-amber-500;
+
+  .form__labels {
+    @apply flex flex-col gap-10 font-bold text-chartreuse;
+  }
+}
+
+

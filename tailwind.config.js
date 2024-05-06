@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        "chartreuse": '#7FFF00FF'
+      }
+    },
   },
   plugins: [],
 }
